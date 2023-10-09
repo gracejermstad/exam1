@@ -5,7 +5,7 @@ body {
 }
 .header {
   border: 3px solid rgb(0, 141, 0);
-  background-image: url('images/your-image.jpg'); /* Update with your image path */
+  background-image: url('images/dog.JPG'); 
   background-size: cover;
   color: white;
   font-size: 44px;
