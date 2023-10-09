@@ -53,6 +53,7 @@ li {
   width: 200px;
   background-color: light blue;
   text-align: justify;
+  list-style-type: none;
 }
 li:nth-child(3n) {
   color: white;
