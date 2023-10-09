@@ -40,15 +40,22 @@ h1 {
   background-color: rgb(219, 69, 69);
 }
 
-.parent-div > div:first-child {
+.outdiv > div:first-child {
   width: 80%;
   margin: 0 auto;
 }
 
-.parent-div > div:nth-child(even) {
+.outdiv > div:nth-child(odd) {
   border: 1px dashed black; 
 }
 
-ul li, ol li {
+li {
   width: 200px;
+  background-color: light blue;
+  text-align: justify;
 }
+li:nth-child(3n) {
+  color: white;
+  background-color: white;
+}
+
