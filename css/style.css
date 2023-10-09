@@ -1,1 +1,59 @@
-
+<!-- 1 -->
+body{
+  margin: 0
+  padding: 0
+}
+<!-- 2 -->
+header {
+  border: 3px solid rgb(0, 141, 0);
+  background-image: url('images/your-image.jpg'); 
+  background-size: cover;
+  color: white; 
+  font-size: 44px; 
+  min-height: 350px; 
+  text-align: center;
+  padding: 20px; 
+}
+<!-- 3 -->
+h1 {
+  text-align: center;
+}
+<!-- 4 -->
+.outdiv {
+  border: 5px solid rgb(182, 43, 43); 
+}
+.outdiv:hover {
+  background-color: yellow; 
+}
+<!-- 5 -->
+:focus {
+  background-color: rgba(210, 210, 210,1);
+}
+<!-- 6 -->
+.test {
+  text-transform: uppercase;
+}
+<!-- 7 -->
+.outdiv {
+  border: 5px solid black;
+  width: 20%;
+  margin: 10px;
+  padding: 20px;
+  background-color:hover rgb(219, 69, 69);
+}
+<!-- 8 -->
+.special {
+  text-align: center; 
+}
+.special {
+  width: 80%; 
+  margin: 0 auto; 
+}
+<!-- 9 -->
+.outdiv > div:nth-child(odd) {
+  border: 2px dashed black; 
+}
+<!-- 10 -->
+ul li, ol li {
+  width: 200px;
+}
